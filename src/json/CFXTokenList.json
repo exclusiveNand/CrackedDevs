@@ -1,0 +1,38 @@
+[
+    {
+      "symbol": "CFX",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b.png",
+        "name": "Conflux",
+        "address": "0x14b2d3bc65e74dae1030eafd8ac30c533c976a9b",
+        "decimals": 18  
+    },
+    {
+        "symbol": "ETH",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0xa47f43de2f9623acb395ca4905746496d2014d57.png",
+        "name": "Ethereum Token",
+        "address": "0xa47f43de2f9623acb395ca4905746496d2014d57",
+        "decimals": 18
+    },
+    {
+        "symbol": "USDC",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x6963efed0ab40f6c3d7bda44a05dcf1437c44372.png",
+        "name": "USD Coin",
+        "address": "0x6963efed0ab40f6c3d7bda44a05dcf1437c44372",
+        "decimals": 18
+    },
+    {
+        "symbol": "USDT",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0xfe97e85d13abd9c1c33384e796f10b73905637ce.png",
+        "name": "Tether USD",
+        "address": "0xfe97e85d13abd9c1c33384e796f10b73905637ce",
+        "decimals": 18
+    },
+    {
+        "symbol": "WBTC",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x1f545487c62e5acfea45dcadd9c627361d1616d8.png",
+        "name": "Wrapped Bitcoin",
+        "address": "0x1f545487c62e5acfea45dcadd9c627361d1616d8",
+        "decimals": 18
+    }
+
+]

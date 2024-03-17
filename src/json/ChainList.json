@@ -1,0 +1,22 @@
+[
+    {
+        "chainID": 1,
+        "chainName": "Ethereum Mainnet",
+        "iconURL": "/Ethereum.png"
+    },
+    {
+        "chainID": 1030,
+        "chainName": "Conflux eSpace",
+        "iconURL": "/Conflux.png"
+    },
+    {
+        "chainID": 5,
+        "chainName": "Goerli Testnet",
+        "iconURL": "/Ethereum.png"
+    },
+    {
+        "chainID": 71,
+        "chainName": "Conflux eSpace (Testnet)",
+        "iconURL": "/Conflux.png"
+    }
+]

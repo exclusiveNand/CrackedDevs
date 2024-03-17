@@ -1,0 +1,322 @@
+.AddPage {
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    min-height: 100svh;
+
+    .AddContainer {
+        padding: 40px 20px;
+        width: 500px;
+
+        .AddTypeContainer {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 10px;
+
+            .AddType {
+                font-size: 16px;
+                font-weight: 500;
+                color: #ffffff;
+                padding: 10px 20px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                background-color: #e625759d;
+
+                &:hover {
+                    background-color: #f05d939d;
+                }
+            }
+
+            .AddTypeActive {
+                background-color: #e62575 !important;
+
+                &:hover {
+                    background-color: #f05d93 !important;
+                }
+            }
+        }
+
+        .AddBoxContainer {
+            background-color: #131313;
+            border: #252628 2px solid;
+            border-radius: 20px;
+            padding: 30px;
+            min-height: 400px;
+
+            .AddBoxTitle {
+                font-size: 24px;
+                font-weight: 600;
+                color: #fff;
+            }
+
+            .AddBoxInputContainer {
+                padding: 20px 10px;
+
+                .seperatorArrContainer {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .seperatorArr {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+
+                .AddBoxInput {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 5px;
+                    background-color: #1b1b1b;
+                    border: #252628 2px solid;
+                    padding: 20px;
+                    border-radius: 10px;
+                    gap: 20px;
+
+                    .AddBoxInputTitle {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #fff;
+                        align-self: flex-start;
+                    }
+
+                    .tokenELabelContainer {
+                        justify-content: flex-start !important;
+
+                        .tokenELabel {
+                            margin: 0 !important;
+                        }
+                    }
+
+                    .AddBoxInputLabelContainer {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        gap: 10px;
+
+                        .AddBoxInputLabel {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+
+                            padding: 10px 15px;
+                            background-color: #4263c4;
+                            border-radius: 15px;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: 25px;
+                                height: 25px;
+                                margin-right: 10px;
+                            }
+
+                            span {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+
+                    .AddBoxInputSliderContainer {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        gap: 10px;
+
+                        .AddBoxInputSlider {
+                            width: 80%;
+                        }
+
+                        .AddBoxInputSliderValue {
+                            font-size: 50px;
+                            font-weight: 600;
+                            color: #fff;
+                        }
+
+                        .AddBoxInputSliderValueMarks {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 100%;
+                            margin-top: 10px;
+                            span {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #fff;
+                                background-color: #4263c46e;
+                                padding: 10px 15px;
+                                border-radius: 10px;
+                                cursor: pointer;
+
+                                &:hover {
+                                    background-color: #4263c4;
+                                }
+                            }
+                        }
+                    }
+
+                    .AddBoxInputFieldContainer {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        gap: 10px;
+
+                        .AddBoxInputField {
+                            height: 50px;
+                            border: none;
+                            border-radius: 10px;
+                            padding: 0 10px;
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #000;
+                            background-color: #fff;
+                        }
+                    }
+                }
+
+                .AddBoxOutput {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    margin-bottom: 5px;
+                    gap: 10px;
+                    background-color: #1b1b1b;
+                    border: #252628 2px solid;
+                    padding: 20px;
+                    border-radius: 10px;
+                    flex-direction: column;
+
+                    .AddBoxOutputTitle {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #fff;
+                        align-self: flex-start;
+                    }
+
+                    .EstimatedGas {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #fff;
+                        display: flex;
+                        flex-direction: row;
+                        align-content: space-between;
+                        justify-content: space-between;
+                        width: 100%;
+
+                        span {
+                            font-size: 16 px;
+                            font-weight: 500;
+                            color: #fff;
+                            padding: 10px 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+
+                    .AddBoxOutputContainer {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        gap: 20px;
+
+                        .AddBoxOutputLabel {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: #fff;
+                            display: flex;
+
+                            padding: 10px 15px;
+                            background-color: #4263c4;
+                            border-radius: 15px;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            cursor: pointer;
+
+                            img {
+                                width: 25px;
+                                height: 25px;
+                                margin-right: 10px;
+                            }
+
+                            span {
+                                margin-left: 10px;
+                            }
+                        }
+
+                        span {
+                            color: #fff;
+                            font-size: 20px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+
+            .AddBoxButton {
+                width: calc(100% - 20px);
+                height: 50px;
+                border: none;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: 600;
+                color: #fff;
+                background-color: #e30b5c;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                margin-left: 10px;
+
+                &:hover {
+                    background-color: #ff4d8a;
+                }
+
+                &:disabled {
+                    background-color: #e30b5a4b;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+}
+
+.AddModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1000;
+
+    .AddModalItem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 20px;
+        cursor: pointer;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.Pools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+  min-height: 100svh;
+
+  .PoolsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 30px;
+    background-color: #131313;
+    border: #252628 2px solid;
+    border-radius: 15px;
+
+    .PoolsTitle {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .UserPoolsList {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+
+      .UserPoolsListItemWalletNotConnected {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 137.8px;
+        width: 450px;
+        padding: 15px;
+        background-color: #1b1b1b;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+      }
+
+      .UserPoolsListItemEmpty {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 137.8px;
+        width: 450px;
+        padding: 15px;
+        background-color: #1b1b1b;
+        border-radius: 15px;
+        color: #fff;
+
+        img {
+          width: 30px;
+          height: 30px;
+          animation: rotate 2s linear infinite;
+
+          @keyframes rotate {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+        }
+      }
+
+      .UserPoolsListItem {
+        background-color: #bb9faadb;
+        border-radius: 15px;
+        padding: 15px;
+        width: 450px;
+        color: #fff;
+        &:hover {
+          background-color: #414141;
+          cursor: pointer;
+        }
+
+        .UserPoolsListItemTitle {
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+
+          .UserPoolsListItemTitleToken0Img {
+            position: relative;
+            width: 30px;
+            height: 30px;
+            z-index: 2 !important;
+          }
+          .UserPoolsListItemTitleToken1Img {
+            position: relative;
+            width: 30px;
+            height: 30px;
+            z-index: 1 !important;
+            margin-left: -10px;
+          }
+
+          span {
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 10px;
+          }
+        }
+
+        .UserPoolsListItemContentContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+
+          .UserPoolsListItemContent {
+            display: flex;
+            justify-content: space-between;
+            align-items: space-between;
+          }
+        }
+      }
+    }
+  }
+}

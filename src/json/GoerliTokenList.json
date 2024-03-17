@@ -1,0 +1,32 @@
+[
+    {
+        "symbol": "ETH",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0xa47f43de2f9623acb395ca4905746496d2014d57.png",
+        "name": "Ethereum",
+        "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "decimals": 18
+    }, 
+    
+    {
+        "symbol": "tUSDC",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x6963efed0ab40f6c3d7bda44a05dcf1437c44372.png",
+        "name": "USD Coin",
+        "address": "0x142c68565b6cda5EE19d1aE704A0Bbe80f43c0A8",
+        "decimals": 6
+    },
+    {
+        "symbol": "USDT",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0xfe97e85d13abd9c1c33384e796f10b73905637ce.png",
+        "name": "Tether USD",
+        "address": "0xdAC17F958D2ee523a0x509Ee0d083DdF8AC028f2a56731412edD63223B92206206994597C13D831ec7",
+        "decimals": 6
+    },
+    {
+        "symbol": "WBTC",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x1f545487c62e5acfea45dcadd9c627361d1616d8.png",
+        "name": "Wrapped Bitcoin",
+        "address": "0xc9ccd8726611A0D62f0CC2e42275A016d66880Cf",
+        "decimals": 8
+    }
+
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "symbol": "ETH",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0xa47f43de2f9623acb395ca4905746496d2014d57.png",
+        "name": "Ethereum",
+        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18
+    }, 
+    {
+      "symbol": "DAI",
+        "img": "https://etherscan.io/token/images/MCDDai_32.png",
+        "name": "Dai Stablecoin",
+        "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18  
+    },
+    {
+        "symbol": "USDC",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x6963efed0ab40f6c3d7bda44a05dcf1437c44372.png",
+        "name": "USD Coin",
+        "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+    },
+    {
+        "symbol": "USDT",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0xfe97e85d13abd9c1c33384e796f10b73905637ce.png",
+        "name": "Tether USD",
+        "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+    },
+    {
+        "symbol": "WBTC",
+        "img": "https://scan-icons.oss-cn-hongkong.aliyuncs.com/mainnet/0x1f545487c62e5acfea45dcadd9c627361d1616d8.png",
+        "name": "Wrapped Bitcoin",
+        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+    }
+
+]
